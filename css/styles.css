@@ -1,0 +1,53 @@
+/* -----------------Fonts--------------*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* ----------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myLogo {
+    font-family: 'Righteous', cursive;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.myLogo span {
+    color: red;
+    font-family: 'pacifico', cursive;
+}
+.nav-item a {
+    font-weight: 700;
+}
+.nav-item a:hover {
+    color: red !important;
+}
+#collapse_projects {
+    border: none;
+}
+#collapse_projects a:hover {
+    color: red !important;
+    background-color: white;
+    font-weight: 700;
+}
+.carousel-item {
+    height: 25rem;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+.slide_contrainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.overlay-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+}
