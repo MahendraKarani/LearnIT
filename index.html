@@ -42,41 +42,83 @@
         </nav>
     </header>
     <body>
-        <div id="mySlider" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#mySlider" data-slide-to="0" class="active"></li>
-                <li data-target="#mySlider" data-slide-to="1"></li>
-                <li data-target="#mySlider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="overlay-image" style="background-image: url(images/slide-2.png)"></div>
-                    <div class="slide_container carousel-caption">
-                        <h1>Javascript</h1>
+        <main>
+            <section id="mySlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mySlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mySlider" data-slide-to="1"></li>
+                    <li data-target="#mySlider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="overlay-image" style="background-image: url(images/slide-1.jpg)"></div>
+                        <div class="slide_container carousel-caption">
+                            <h1>Javascript</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(images/slide-2.png)"></div>
+                        <div class="slide_container carousel-caption">
+                            <h1>Angular 11</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(images/slide-3.png)"></div>
+                        <div class="slide_container carousel-caption">
+                            <h1>Node.js</h1>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="overlay-image" style="background-image: url(images/slide-3.png)"></div>
-                    <div class="slide_container carousel-caption">
-                        <h1>Angular 11</h1>
+                <a href="#mySlider" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a href="#mySlider" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="sr-only">next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </section>
+            <section id="services">
+               <div class="row row-col-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mx-auto">
+                   <div class="col mb-4">
+                       <div class="card shadow">
+                            <img src="images/cls-training.jpg" alt="Classroom Trainings" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Classroom Trainings</h5>
+                                <p class="card-text">We are providing classroom trainings programme to students for better learning.</p>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="col mb-4">
+                        <div class="card shadow">
+                            <img src="images/cls-training.jpg" alt="Classroom Trainings" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Online Trainings</h5>
+                                <p class="card-text">We are providing classroom trainings programme to students for better learning.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="overlay-image" style="background-image: url(images/slide-1.jpg)"></div>
-                    <div class="slide_container carousel-caption">
-                        <h1>Node.js</h1>
+                    <div class="col mb-4">
+                        <div class="card shadow">
+                            <img src="images/cls-training.jpg" alt="Classroom Trainings" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Live Projects</h5>
+                                <p class="card-text">We are providing classroom trainings programme to students for better learning.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <a href="#mySlider" class="carousel-control-prev" role="button" data-slide="prev">
-                <span class="sr-only">Previous</span>
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a href="#mySlider" class="carousel-control-next" role="button" data-slide="next">
-                <span class="sr-only">next</span>
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
-        </div>
+                    <div class="col mb-4">
+                        <div class="card shadow">
+                            <img src="images/cls-training.jpg" alt="Classroom Trainings" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Contact Support</h5>
+                                <p class="card-text">We are providing classroom trainings programme to students for better learning.</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </section>
+        </main>
     </body>
 </body>
 </html>
