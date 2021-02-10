@@ -32,7 +32,7 @@
     font-weight: 700;
 }
 .carousel-item {
-    height: 25rem;
+    height: 18rem;
     color: white;
     background-color: black;
     position: relative;
@@ -52,8 +52,8 @@
     background-size: cover;
 }
 #services {
-    margin: 10% 5%;
-    height: 60vh;
+    margin: 6% 5%;
+    height: 55vh;
 }
 #services .row {
     width: 100%;
