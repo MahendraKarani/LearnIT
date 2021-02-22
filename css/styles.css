@@ -62,7 +62,7 @@
 #courses_section {
     width: 100%;
     position: relative;
-    background: linear-gradient(to top right, rgb(228, 241, 242), rgb(219, 253, 255));
+    background: linear-gradient(to top right, rgb(228, 241, 242), rgb(250, 228, 255));
 }
 #courses_section h2 {
     font-family: 'Reggae One', cursive;
@@ -72,6 +72,7 @@
 }
 .popular_courses {
     width: 100%;
+    padding: 0 0 5% 0;
 }
 .popular_courses img {
     width: 16rem;
