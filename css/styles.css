@@ -77,3 +77,33 @@
 .popular_courses img {
     width: 16rem;
 }
+.popular_courses img:hover {
+    box-shadow: 5px 5px 50px rgb(85, 85, 85);
+    transition: 0.3s linear;
+    transform: scale(0.8, 0.8);
+}
+footer {
+    width: 100%;
+    position: relative;
+}
+footer .row {
+    width: 100%;
+}
+.about_more {
+    color: white;
+    font-weight: 700;
+}
+.quick_link_group li a {
+    text-decoration: none;
+} 
+.about_more:hover {
+    color: red;
+}
+.quick_links a {
+    color: white;
+}
+.quick_links a:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: 700;
+}
