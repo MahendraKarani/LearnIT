@@ -62,7 +62,7 @@
 #courses_section {
     width: 100%;
     position: relative;
-    background: linear-gradient(to top right, rgb(228, 241, 242), rgb(250, 228, 255));
+    background: linear-gradient(to top right, rgb(228, 241, 242), rgb(243, 220, 255), rgb(230, 220, 187), rgb(205, 242, 228), rgb(253, 219, 203));
 }
 #courses_section h2 {
     font-family: 'Reggae One', cursive;
@@ -93,9 +93,6 @@ footer h3 {
     font-family: 'Reggae One', cursive;
     text-decoration: underline;
 }
-/* footer h3:hover {
-    text-decoration: underline;
-} */
 .about_more {
     color: white;
     font-weight: 700;
