@@ -89,6 +89,13 @@ footer {
 footer .row {
     width: 100%;
 }
+footer h3 {
+    font-family: 'Reggae One', cursive;
+    text-decoration: underline;
+}
+/* footer h3:hover {
+    text-decoration: underline;
+} */
 .about_more {
     color: white;
     font-weight: 700;
